@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
         movieList = document.querySelector('.promo__interactive-list'),
         form = document.querySelector('form.add'),
         input = form.querySelector('.adding__input'),
-        checkBox = form.querySelector('[type="checkbox"]'),
+        checkBox = form.querySelector('[type="checkbox"]');
 
     const deleteAds = (arr) => {
         arr.forEach(ad => {
